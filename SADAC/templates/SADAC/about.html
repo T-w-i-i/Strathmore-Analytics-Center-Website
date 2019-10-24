@@ -1,0 +1,673 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="{{LANGUAGE_CODE}}">
+<head>
+<meta charset="utf-8">
+<link rel='icon' href='{%static 'SADAC/images/logo3.png' %}' type='image/x-icon'/ >
+<title>About us - SADAC</title>
+<!-- Stylesheets -->
+<link href="{% static 'SADAC/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'SADAC/css/style.css'%}" rel="stylesheet">
+<link href="{% static 'SADAC/css/responsive.css'%}" rel="stylesheet">
+
+
+
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+
+</head>
+
+<body>
+
+
+<div class="page-wrapper">
+
+
+
+    <!-- Main Header-->
+    <header class="main-header header-style-five">
+
+		<!--Header Top-->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="contact-list clearfix">
+                            <li><i class="fa fa-envelope-o"></i> info@strathmore.edu</li>
+                            <li><i class="fa fa-phone"></i><a href="#">(0)703-034000 </a></li>
+							<li><i class="fa fa-map-marker"></i><a href="#">Ole Sangale Road.</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="top-right">
+
+
+
+						<!--Language-->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+    	<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+
+                	<div class="pull-left logo-box">
+                    	<div class="logo"><a href="/"><img src="{%static 'SADAC/images/logo1.png' %}"  style="height: 100px; width: 220px;" alt="" title=""></a></div>
+                    </div>
+
+                   	<div class="nav-outer clearfix">
+
+						<!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+                  <li ><a href="{% url 'SADAC:home' %}">Home</a>
+                  <li ><a href="{% url 'SADAC:about' %}">About Us</a>
+                  <li ><a href="{% url 'SADAC:contact' %}">Contact Us | </a>
+                    <!-- <li ><a href="{% url 'SADAC:allblogs' %}">Articles | </a> -->
+                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+                </ul>
+							</div>
+
+						</nav>
+
+						<!--Outer Box-->
+						<div class="outer-box">
+
+							<!--Search Box-->
+
+
+						</div>
+
+					</div>
+
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+
+    </header>
+    <!--End Main Header -->
+
+    <!--Page Title-->
+      <section class="page-title" style="background-image:url({% static 'SADAC/images/background/binary.jpg' %})">
+      	<div class="auto-container">
+  			<div class="content">
+  				<h1>About <span>Us</span></h1>
+  				<ul class="page-breadcrumb">
+  					<li><a href="index.html">Home</a></li>
+  					<li>About Us</li>
+  				</ul>
+  			</div>
+          </div>
+      </section>
+      <!--End Page Title-->
+
+
+      <!-- Portfolio Single Section -->
+    	<section class="portfolio-single-section">
+    		<div class="auto-container">
+    			<!-- Sec Title -->
+    			<div class="sec-title centered">
+    				<div class="title">Data Has A Better Idea</div>
+    				<h2>Our Story</h2>
+    			</div>
+
+    			<div class="row clearfix">
+
+    				<!-- Image Column -->
+    				<div class="image-column col-lg-7 col-md-12 col-sm-12">
+    					<div class="inner-column">
+    						<div class="image">
+    							<img src="{% static 'SADAC/images/resource/sadac.jpg' %}" alt="" title="">
+    						</div>
+    					</div>
+    				</div>
+
+    				<!-- Content Column -->
+    				<div class="content-column col-lg-5 col-md-12 col-sm-12">
+    					<div class="inner-column">
+    						<h3>Who is SADAC?</h3>
+    						<div class="text">
+    							<p>Strathmore Africa Data Analytics Center (SADAC) is a professional services firm offering data driven corporate solutions in order to achieve a competitive advantage for our clients. We also offer individual and corporate trainings that equip our students with a practical and comprehensive understanding of the Data Science field.</p>
+
+    						</div>
+
+                <h3>Why Data Science for Businesses?</h3>
+    						<div class="text">
+    							<p>The increased application of Data Science across industries has proven that the skill is an insurmountable resource in running a business in the 21st century. Data Science enables a business to obtain actionable insight from their day-to-day activities thus enabling them to make informed strategic moves. Business implementing data-driven solutions have reported improved efficiency, enhanced profits and lower costs, spurred by the implementation of Data Science tools and algorithms.</p>
+
+    						</div>
+
+    					</div>
+    				</div>
+
+    			</div>
+        </section>
+
+  	<!-- Services Section Three-->
+
+  	<section class="services-section-three" >
+      <!-- <div class="auto-container"> -->
+  		<div class="auto-container">
+  			<div class="row clearfix">
+
+
+  				<!-- Services Block -->
+  				<div class="services-block-three style-two col-lg-4 col-md-6 col-sm-12" >
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="icon-box">
+  							<span class="icon flaticon-bar-chart"></span>
+  						</div>
+  						<h6><a href="#">Mission</a></h6>
+  						<div class="text">We curate new pathways for research that enable African Businesses to harness the data revolution for the benefit of society.</div>
+  					</div>
+  				</div>
+
+  				<!-- Services Block -->
+  				<div class="services-block-three style-two col-lg-4 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="300ms" data-wow-duration="1500ms">
+  						<div class="icon-box">
+  							<span class="icon flaticon-board"></span>
+  						</div>
+  						<h6><a href="#">Vision</a></h6>
+  						<div class="text">To pioneer data-driven solutions for African businesses in order to foster development in Africa.</div>
+  					</div>
+  				</div>
+
+  				<!-- Services Block -->
+  				<div class="services-block-three style-two col-lg-4 col-md-12 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="600ms" data-wow-duration="1500ms">
+  						<div class="icon-box">
+  							<span class="icon flaticon-student"></span>
+  						</div>
+  						<h6><a href="#">Objectives</a></h6>
+  						<div class="text">We aim to cultivate human capital in the fields of Research, Finance, Data Science and Business Journalism.</div>
+  					</div>
+  				</div>
+
+  			</div>
+  		</div>
+  	</section>
+
+
+    <section class="team-section-two">
+  		<div class="auto-container">
+  			<!-- Sec Title -->
+  			<div class="sec-title-three centered">
+  				<div class="title">Data has a better Idea</div>
+  				<h2>Our Advisory Board</h2>
+  			</div>
+
+  			<div class="row clearfix">
+
+  				<!--Team Block-->
+  				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/Drnjenga.png' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/george-njenga-710b75/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Dr. George Njenga</a></h5>
+  							<div class="designation">Dean, Strathmore Business School</div>
+  						</div>
+  					</div>
+  				</div>
+
+  				<!--Team Block-->
+  				<div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/rosemary.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://ke.linkedin.com/in/rosemary-okello-orlale" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Mrs. Rosemary Okello Orlale </a></h5>
+  							<div class="designation">Director - Africa Media Hub- Strathmore University Business School</div>
+  						</div>
+  					</div>
+  				</div>
+
+  				<!--Team Block-->
+  				 <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/sevilla.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/joseph-sevilla-6820971a/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Dr. Joseph Sevilla</a></h5>
+  							<div class="designation">Director - @iLabAfrica at Strathmore University</div>
+  						</div>
+  					</div>
+  				</div>
+
+          <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/ben.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/ben-roberts-9085592/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Mr. Ben Roberts</a></h5>
+  							<div class="designation">Group Chief Technology and Innovation Officer at Liquid Telecom</div>
+  						</div>
+  					</div>
+  				</div>
+
+          <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/Phillip.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://ke.linkedin.com/in/philip-thigo-9293b32" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Mr. Philip Tigo</a></h5>
+  							<div class="designation">Director for Africa at Thunderbird School of Global Management</div>
+  						</div>
+  					</div>
+  				</div>
+
+
+  			</div>
+
+  		</div>
+  	</section>
+
+
+    <section class="team-section-two">
+      <div class="auto-container">
+        <!-- Sec Title -->
+        <div class="sec-title-three centered">
+          <div class="title">Data has a better Idea</div>
+          <h2>Our Management Team</h2>
+        </div>
+
+        <div class="row clearfix">
+
+          <!--Team Block-->
+          <div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/olu.jpg' %}" alt="" style="height: 367px;"title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/john-olukuru-9a09b512b/" target="_blank"class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Mr. John Olukuru</a></h5>
+  							<div class="designation">CEO</div>
+  						</div>
+  					</div>
+  				</div>
+
+          <!--Team Block-->
+          <div class="team-block-two col-lg-4 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/Theuri.jpeg'%}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/joseph-theuri-76034bab/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Mr. Joseph Theuri</a></h5>
+  							<div class="designation">Lead Data Scientist</div>
+  						</div>
+  					</div>
+  				</div>
+
+          <!--Team Block-->
+          <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+              <div class="image">
+                <a href="team.html"><img src="{% static 'SADAC/images/resource/michael.jpg'%}" style="height: 367px;"alt="" title=""></a>
+                <ul class="social-box">
+
+                  <li><a href="https://www.linkedin.com/in/michael-gichure-68882827/" target="_blank" class="fa fa-linkedin"></a></li>
+
+                </ul>
+              </div>
+              <div class="lower-content">
+                <h5><a href="team.html">Mr. Michael Gichure</a></h5>
+                <div class="designation">Lead Data Engineer</div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+              <div class="image">
+                <a href="team.html"><img src="{% static 'SADAC/images/resource/natacha.jpg' %}" style="height: 367px;" alt="" title=""></a>
+                <ul class="social-box">
+
+                  <li><a href="https://www.linkedin.com/in/natacha-ishema-027a8816/" target="_blank" class="fa fa-linkedin"></a></li>
+
+                </ul>
+              </div>
+              <div class="lower-content">
+                <h5><a href="team.html">Natacha Ishema</a></h5>
+                <div class="designation">Project Manager</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="team-block-two col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+              <div class="image">
+                <a href="team.html"><img src="{% static 'SADAC/images/resource/avatar.png' %}" alt="" title=""></a>
+                <ul class="social-box">
+
+                  <li><a href="https://ke.linkedin.com/in/gillian-kimundi-920745b0"  target="_blank" class="fa fa-linkedin"></a></li>
+
+                </ul>
+              </div>
+              <div class="lower-content">
+                <h5><a href="team.html">Gillian Kimundi </a></h5>
+                <div class="designation">Lead Business Intelligence Analyst</div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Team Section Two -->
+  	<section class="team-section-two">
+  		<div class="auto-container">
+  			<!-- Sec Title -->
+  			<div class="sec-title-three centered">
+  				<div class="title">Our dedicated Team</div>
+  				<h2>Team Members</h2>
+  			</div>
+
+  			<div class="row clearfix">
+
+
+  				<!--Team Block-->
+  				<div class="team-block-two col-lg-3 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/dennis.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/dennis-ndungu-71906711a/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Dennis Ndungu</a></h5>
+  							<div class="designation">Data Scientist</div>
+  						</div>
+  					</div>
+  				</div>
+
+  				<!--Team Block-->
+  				<div class="team-block-two col-lg-3 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  								<a href="team.html"><img src="{% static 'SADAC/images/resource/bett.jpg' %}" style="height:324px;"alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/kelvin-bett-302a99124/"target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Kelvin Bett</a></h5>
+  							<div class="designation">Data Engineer</div>
+  						</div>
+  					</div>
+  				</div>
+
+  				<!--Team Block-->
+  				<div class="team-block-two col-lg-3 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/kahenya.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/joseph-kahenya-b9b3a114b/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Joseph Kahenya</a></h5>
+  							<div class="designation">Data Scientist</div>
+  						</div>
+  					</div>
+  				</div>
+
+          <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/martin.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+
+  								<li><a href="https://www.linkedin.com/in/martinmuru/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Martin Mutwiri</a></h5>
+  							<div class="designation">Data Engineer</div>
+  						</div>
+  					</div>
+  				</div>
+
+
+
+          <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
+  					<div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+  						<div class="image">
+  							<a href="team.html"><img src="{% static 'SADAC/images/resource/vanessa.jpg' %}" alt="" title=""></a>
+  							<ul class="social-box">
+  								<li><a href="https://www.linkedin.com/in/vanessa-murgor-7b9a8787/" target="_blank" class="fa fa-linkedin"></a></li>
+
+  							</ul>
+  						</div>
+  						<div class="lower-content">
+  							<h5><a href="team.html">Vanessa Murgor</a></h5>
+  							<div class="designation">Data Analyst</div>
+  						</div>
+  					</div>
+  				</div>
+
+          <div class="team-block-two col-lg-3 col-md-6 col-sm-12">
+            <div class="inner-box wow fadeIn" data-wow-delay="0ms" data-wow-duration="1500ms">
+              <div class="image">
+                <a href="team.html"><img src="{% static 'SADAC/images/resource/sharon.jpg' %}" alt="" title=""></a>
+                <ul class="social-box">
+
+                  <li><a href="https://www.linkedin.com/in/sharon-mutia-b1068185/" target="_blank" class="fa fa-linkedin"></a></li>
+
+                </ul>
+              </div>
+              <div class="lower-content">
+                <h5><a href="team.html">Lucy Ndolo</a></h5>
+                <div class="designation">Data Scientist</div>
+              </div>
+            </div>
+          </div>
+
+
+  			</div>
+
+  		</div>
+  	</section>
+  	<!-- End Team Section Two -->
+
+
+    <!--Main Footer-->
+      <footer class="main-footer style-three">
+      	<div class="auto-container">
+          	<!--Widgets Section-->
+              <div class="widgets-section">
+              	<div class="row clearfix">
+
+                      <!--Column-->
+                      <div class="big-column col-lg-6 col-md-12 col-sm-12">
+  						<div class="row clearfix">
+
+                          	<!--Footer Column-->
+                              <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                  <div class="footer-widget logo-widget">
+  									<div class="text">DATA HAS A BETTER IDEA</div>
+  									<ul class="list-style-two">
+  										<li><span class="icon fa fa-phone"></span> (+254) (0)703-034000/200/300 </li>
+                      <li><span class="icon fa fa-phone"></span> +254) (0) 730-734000/200/300 </li>
+  										<li><span class="icon fa fa-envelope"></span> Info@strathmore.edu</li>
+  										<li><span class="icon fa fa-home"></span>Ole Sangale Road,<br> off Langata Road, in Madaraka Estate.</li>
+  									</ul>
+  								</div>
+  							</div>
+
+  							<!--Footer Column-->
+                              <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                  <div class="footer-widget links-widget">
+  									<h6 style="color: #fff; ">Quick Links</h6><br>
+  									<ul class="list-link">
+  										<li><a href="{% url 'SADAC:home' %}">Home</a></li>
+  										<li><a href="{% url 'SADAC:home' %}">Services</a></li>
+  										<li><a href="{% url 'SADAC:about' %}">About us</a></li>
+  										<li><a href="{% url 'SADAC:contact' %}">Contact</a></li>
+  									</ul>
+  								</div>
+  							</div>
+
+  						</div>
+  					</div>
+
+  					<!--Column-->
+                      <div class="big-column col-lg-6 col-md-12 col-sm-12">
+  						<div class="row clearfix">
+
+                          	<!--Footer Column-->
+                              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                  <div class="footer-widget links-widget">
+  									<h6 style="color: #fff; ">Strathmore Faculties and Schools</h6><br>
+  									<ul class="list-link">
+  										<li><a href="http://www.fit.strathmore.edu/">Faculty of Information Technology</a></li>
+  										<li><a href="http://sbs.strathmore.edu/">Strathmore Business School</a></li>
+  										<li><a href="http://www.law.strathmore.edu/">Strathmore Law School</a></li>
+  										<li><a href="http://www.shss.strathmore.edu/">School of Humanities and Social Sciences</a></li>
+  									</ul>
+  								</div>
+  							</div>
+
+  							<!--Footer Column-->
+                              <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                  <div class="footer-widget gallery-widget">
+
+  									<div class="logo"><a href="/"><img src="{%static 'SADAC/images/resource/logo.png' %}" alt="" title=""></a></div>
+  								</div>
+  							</div>
+
+  						</div>
+  					</div>
+
+  				</div>
+  			</div>
+  		</div>
+      <hr style="color:#fff">
+  		<!-- Footer Bottom -->
+  		<div class="footer-bottom">
+  			<div class="auto-container">
+  				<div class="row clearfix">
+
+  					<!-- Copyright Column -->
+  					<div class="copyright-column col-lg-6 col-md-6 col-sm-12">
+  						<div class="copyright">2019 &copy; All rights reserved by <a href="#">SADAC</a></div>
+  					</div>
+
+  					<!-- Social Column -->
+  					<div class="social-column col-lg-6 col-md-6 col-sm-12">
+  						<ul>
+  							<li class="follow">Follow us: </li>
+  							<li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
+  							<li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+  							<li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+
+  						</ul>
+  					</div>
+
+  				</div>
+  			</div>
+  		</div>
+  	</footer>
+
+
+</div>
+<!--End pagewrapper-->
+
+<script src="{% static 'SADAC/js/jquery.js' %}"></script>
+<script src="{% static 'SADAC/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'SADAC/js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+<script src="{% static 'SADAC/js/jquery.fancybox.js'% }"></script>
+<script src="{% static 'SADAC/js/appear.js'%}"></script>
+<script src="{% static 'SADAC/js/owl.js'%}"></script>
+<script src="{% static 'SADAC/js/wow.js'%}"></script>
+<script src="{% static 'SADAC/js/jquery-ui.js'%}"></script>
+<script src="{% static 'SADAC/js/main.js'%}"></script>
+<!--Google Map APi Key-->
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
+<script src="{% static 'SADAC/js/map-script.js'%}"></script>
+<!--End Google Map APi-->
+
+
+</body>
+</html>

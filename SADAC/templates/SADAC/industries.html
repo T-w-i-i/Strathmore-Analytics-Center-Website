@@ -1,0 +1,274 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="{{LANGUAGE_CODE}}">
+<head>
+<meta charset="utf-8">
+<title>SADAC-contact</title>
+<!-- Stylesheets -->
+<link href="{% static 'SADAC/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'SADAC/css/style.css'%}" rel="stylesheet">
+<link href="{% static 'SADAC/css/responsive.css'%}" rel="stylesheet">
+
+
+
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+
+
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+
+
+    <!-- Main Header-->
+    <header class="main-header header-style-five">
+
+		<!--Header Top-->
+        <div class="header-top">
+            <div class="auto-container">
+                <div class="inner-container clearfix">
+                    <div class="top-left">
+                        <ul class="contact-list clearfix">
+                            <li><i class="fa fa-envelope-o"></i> info@strathmore.edu</li>
+                            <li><i class="fa fa-phone"></i><a href="#">(0)703-034000 </a></li>
+							<li><i class="fa fa-map-marker"></i><a href="#">Ole Sangale Road.</a></li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+
+
+
+						<!--Language-->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+    	<!--Header-Upper-->
+        <div class="header-upper">
+        	<div class="auto-container">
+            	<div class="clearfix">
+
+                	<div class="pull-left logo-box">
+                    	<div class="logo"><a href="/"><img src="{%static 'SADAC/images/sbs2.png' %}" alt="" title=""></a></div>
+                    </div>
+
+                   	<div class="nav-outer clearfix">
+
+						<!-- Main Menu -->
+						<nav class="main-menu navbar-expand-md">
+							<div class="navbar-header">
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+								<ul class="navigation clearfix">
+                  <li ><a href="{% url 'SADAC:home' %}">Home</a>
+                  <li ><a href="{% url 'SADAC:about' %}">About Us</a>
+                  <li ><a href="{% url 'SADAC:contact' %}">Contact Us | </a>
+                    <!-- <li ><a href="{% url 'SADAC:allblogs' %}">Articles | </a> -->
+                    <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
+                    <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+                    <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+                </ul>
+							</div>
+
+						</nav>
+
+						<!--Outer Box-->
+						<div class="outer-box">
+
+							<!--Search Box-->
+
+
+						</div>
+
+					</div>
+
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+
+    </header>
+    <!--End Main Header -->
+
+
+    <section class="other_services pt-5">
+    	<div class="container py-lg-5 py-sm-3">
+    		<h3 class="heading mb-sm-5 mb-4">Snippets <strong> of Projects done before </strong></h3>
+    		<div class="row">
+    			<div class="col-lg-4 col-md-6 mb-5">
+    				<div class="bg-white grid">
+    					<img src="images/s1.jpg" alt="" class="img-fluid" />
+    					<div class="info p-4">
+    						<h4 class="">Energy Industry</h4>
+                            <iframe class="rounded" width="300" height="300" src="https://app.powerbi.com/view?r=eyJrIjoiYjA1ODYwMDktNTU2MC00ZmI1LWIwOTktMTZhYmMwZTk2OTcxIiwidCI6ImE0NjIyOWM3LTIxZDEtNDE3ZC1hMWNiLTE4NTdhMDdkMjc2NSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+    						<p class="my-3">Onec consequat sapien ut amet leo cursus rhoncus. Nullam dui mi....</p>
+    						<a href="#">Read More </a>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 col-md-6 mb-5">
+    				<div class="bg-white grid">
+    					<img src="images/s2.jpg" alt="" class="img-fluid" />
+    					<div class="info p-4">
+    						<h4 class="">Manufacturing Industry</h4>
+                                <iframe class="rounded" width="300" height="300" src="https://app.powerbi.com/view?r=eyJrIjoiM2QyMDE2ZmMtNzg3OS00ODlhLWE2MDgtNDE3YmMwYWIyNmExIiwidCI6ImE0NjIyOWM3LTIxZDEtNDE3ZC1hMWNiLTE4NTdhMDdkMjc2NSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>						<p class="my-3">Onec consequat sapien ut amet leo cursus rhoncus. Nullam dui mi....</p>
+    						<a href="#">Read More </a>
+    					</div>
+    				</div>
+    			</div>
+    			<div class="col-lg-4 col-md-6 mb-5">
+    				<div class="bg-white grid">
+    					<img src="images/s3.jpg" alt="" class="img-fluid" />
+    					<div class="info p-4">
+    						<h4 class="">Retail Industry</h4>
+                                <iframe class="rounded" width="300" height="300" src="https://app.powerbi.com/view?r=eyJrIjoiNzJlZDZmZjctZGFjYy00MTFiLWJlYjQtYzkwMTAzOGYyODM5IiwidCI6ImE0NjIyOWM3LTIxZDEtNDE3ZC1hMWNiLTE4NTdhMDdkMjc2NSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe>
+    						<p class="my-3">Onec consequat sapien ut amet leo cursus rhoncus. Nullam dui mi....</p>
+    						<a href="#">Read More </a>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+    <!--Main Footer-->
+    <footer class="main-footer style-three">
+      <div class="auto-container">
+          <!--Widgets Section-->
+            <div class="widgets-section">
+              <div class="row clearfix">
+
+                    <!--Column-->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+            <div class="row clearfix">
+
+                          <!--Footer Column-->
+                            <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                                <div class="footer-widget logo-widget">
+                  <div class="logo">
+                    <a href="index.html"><img src="{%static 'images/sbs.png' %}" alt="" title=""></a>
+                  </div>
+                  <div class="text">DATA HAS A BETTER IDEA</div>
+                  <ul class="list-style-two">
+                    <li><span class="icon fa fa-phone"></span> (+254) (0)703-034000/200/300 </li>
+                    <li><span class="icon fa fa-phone"></span> +254) (0) 730-734000/200/300 </li>
+                    <li><span class="icon fa fa-envelope"></span> Info@strathmore.edu</li>
+                    <li><span class="icon fa fa-home"></span>Ole Sangale Road,<br> off Langata Road, in Madaraka Estate.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--Footer Column-->
+                            <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+                  <h6 style="color: #fff; ">Links</h6><br>
+                  <ul class="list-link">
+                    <li><a href="{% url 'SADAC:home' %}">Home</a></li>
+                    <li><a href="{% url 'SADAC:home' %}">Services</a></li>
+                    <li><a href="{% url 'SADAC:about' %}">About us</a></li>
+                    <li><a href="{% url 'SADAC:contact' %}">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!--Column-->
+                    <div class="big-column col-lg-6 col-md-12 col-sm-12">
+            <div class="row clearfix">
+
+                          <!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget links-widget">
+                  <h6 style="color: #fff; ">Strathmore Faculties and Schools</h6><br>
+                  <ul class="list-link">
+                    <li><a href="http://www.fit.strathmore.edu/">Faculty of Information Technology</a></li>
+                    <li><a href="http://sbs.strathmore.edu/">Strathmore Business School</a></li>
+                    <li><a href="http://www.law.strathmore.edu/">Strathmore Law School</a></li>
+                    <li><a href="http://www.shss.strathmore.edu/">School of Humanities and Social Sciences</a></li>
+                    <li><a href="http://www.sgs.strathmore.edu/">School of Graduate Studies</a></li>
+                    <li><a href="https://www.strathmore.edu/soa/">School of Accountancy</a></li>
+                    <li><a href="http://www.sth.strathmore.edu/">School of Tourism and Hospitality</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <!--Footer Column-->
+                            <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                                <div class="footer-widget gallery-widget">
+
+                  <div class="logo"><a href="/"><img src="{%static 'SADAC/images/resource/logo.png' %}" alt="" title=""></a></div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <div class="auto-container">
+        <div class="row clearfix">
+
+          <!-- Copyright Column -->
+          <div class="copyright-column col-lg-6 col-md-6 col-sm-12">
+            <div class="copyright">2019 &copy; All rights reserved by <a href="#">SADAC</a></div>
+          </div>
+
+          <!-- Social Column -->
+          <div class="social-column col-lg-6 col-md-6 col-sm-12">
+            <ul>
+              <li class="follow">Follow us: </li>
+              <li><a href="#"><span class="fa fa-facebook-square"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter-square"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin-square"></span></a></li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </footer>
+    </div>
+    <!--End pagewrapper-->
+
+    <script src="{% static 'SADAC/js/jquery.js' %}"></script>
+    <script src="{% static 'SADAC/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'SADAC/js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+    <script src="{% static 'SADAC/js/jquery.fancybox.js'% }"></script>
+    <script src="{% static 'SADAC/js/appear.js'%}"></script>
+    <script src="{% static 'SADAC/js/owl.js'%}"></script>
+    <script src="{% static 'SADAC/js/wow.js'%}"></script>
+    <script src="{% static 'SADAC/js/jquery-ui.js'%}"></script>
+    <script src="{% static 'SADAC/js/main.js'%}"></script>
+    <!--Google Map APi Key-->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
+    <script src="{% static 'SADAC/js/map-script.js'%}"></script>
+    <!--End Google Map APi-->
+
+    </body>
+    </html>
